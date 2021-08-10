@@ -1,2 +1,24 @@
-# tv
-分页显示 每页15个卡片，正面每个卡片一条数据 （1-15，后面16-30,依次类推） 卡片正面反面 卡片垂直翻转 正面翻背面
+# kupu_tv
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

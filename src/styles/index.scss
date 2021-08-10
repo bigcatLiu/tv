@@ -1,0 +1,86 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('../assets/font/Lato-Bold.ttf');  //引入字体
+
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../assets/font/Lato-Bold.ttf');  //引入字体
+
+}
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Lato-Bold, Lato, Lato-Regular, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  background:#000000;
+  word-break: keep-all;
+}
+ul> li{
+  list-style: none;
+}
+//文字过长又不换行，省略
+.text-ellipsis{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  //postcss-px-to-viewport会将px转为vw，将vw替换为rem
+  font-size: 1vw;
+}
+// @media screen and (max-width: 1200px){
+//   html { // 屏幕最小宽度为 1200px
+//     font-size: 12px;
+//   }
+// }
+// @media screen and (min-width: 1800px){
+//   html { // 屏幕最大宽度为 1800px
+//     font-size: 18px;
+//   }
+// }
+
+#app {
+  height: 100%;
+}
+
+// *,
+// *:before,
+// *:after {
+//   box-sizing: inherit;
+// }
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+
+
+
+
